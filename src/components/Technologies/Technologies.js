@@ -4,7 +4,7 @@ const Technologies = ({setBackImg}) => {
 
   useEffect(() => {
     setBackImg("technology")
-  }, [])
+  }, [setBackImg])
 
   return (
     <div>Technologies</div>

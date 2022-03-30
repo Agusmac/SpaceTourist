@@ -4,7 +4,7 @@ const Crew = ({setBackImg}) => {
 
   useEffect(() => {
     setBackImg("crew")
-  }, [])
+  }, [setBackImg])
 
   return (
     <div>Crew</div>
