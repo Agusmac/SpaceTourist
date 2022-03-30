@@ -217,6 +217,8 @@
       top: 0;
       flex-direction: column;
       z-index: 10;
+      min-height: 100vh;
+      overflow: hidden;
     }
     /* .NavText{
       transition: 0.5s;
