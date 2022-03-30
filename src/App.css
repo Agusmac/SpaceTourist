@@ -180,7 +180,10 @@ a{
   background-size: cover;
   background-position: bottom center;
   min-height: 100vh;
+  height: 100%;
   transition: 1s;
+    overflow: hidden;
+  scrollbar-width: none;
 }
 
 
