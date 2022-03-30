@@ -28,7 +28,9 @@ const Cross = "/assets/shared/icon-close.svg"
         <div className='navHrDiv slide-in-left'><hr /></div>
         <img src={expanded?Cross:Hamburguer} className={`burguer ${expanded?"":"wobble-ver-right"}`} alt="icon" onClick={()=>setExpanded(!expanded)}/>
      
-        <div className={`navbar flex ${expanded?"slide-in-right":"slide-out-right"}`}>
+        {/* <div className={`navbar flex ${expanded?"slide-in-right":"slide-out-right"}`}> */}
+        <div className={`navbar flex ${expanded?"display":"displaynone"}`}>
+        
           <Link to="/">
               <div className={`NavText navlistdiv slide-in-right2 ${backImg==="home"&&"underlined"}`}  onClick={()=>setExpanded(false)}>
               <span>00</span>  Home
