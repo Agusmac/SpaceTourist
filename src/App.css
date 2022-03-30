@@ -182,7 +182,7 @@ a{
   min-height: 100vh;
   height: 100%;
   transition: 1s;
-    overflow: hidden;
+  overflow: hidden;
   scrollbar-width: none;
 }
 
@@ -232,8 +232,10 @@ a{
   .technology{
     background-image: url(../public/assets/technology/background-technology-mobile.jpg);
   }
+
+  body {
+    overflow-y: hidden;
+  }
+
 }
- 
-/* .test{
-  background-image: url(../public/assets/shared/logo.svg);
-} */
+
