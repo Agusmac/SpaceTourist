@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Space Tourist
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Check the live site on [Netlify](https://luminous-sable-e58753.netlify.app/)
 
 ## Available Scripts
 
