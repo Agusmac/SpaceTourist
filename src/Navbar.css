@@ -219,6 +219,7 @@
       border-radius: 0 0 0 50px;
       /* min-height: 100vh; */
       overflow: hidden;
+      transition: 0.5s;
     }
     /* .NavText{
       transition: 0.5s;
@@ -267,10 +268,12 @@
   
 
     .display{
-      display: inline-block;
+      opacity: 1;
+      /* display: inline-block; */
     }
     .displaynone{
-      display: none;
+      opacity: 0;
+      /* display: none; */
     }
     
 
