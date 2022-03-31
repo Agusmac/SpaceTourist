@@ -58,4 +58,7 @@
     .destLinker{
         justify-content: space-around;
     }
+    .destDiv h5{
+        font-size: 5vw;
+    }
 }
