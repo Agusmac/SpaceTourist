@@ -89,6 +89,12 @@ select {
   text-align: left;
 }
 
+.spacerBotLight{
+  margin-bottom: 10px;
+}
+.spacerTopLight{
+  margin-top: 10px;
+}
 .spacerBot{
   margin-bottom: 30px;
 }
@@ -113,7 +119,9 @@ select {
 .grid{
   display: grid;
 }
-
+.simpleGrid{
+  grid-template-columns: 1fr 1fr;
+}
 .loader{
   border:5px solid rgb(85, 159, 209);
   border-top: 5px solid rgb(156, 215, 250);
@@ -155,9 +163,9 @@ h5{
  margin-bottom: 0;
  font-weight: 400;
 }
-
-
-
+.subheading1{
+  font-size: 28px;
+}
 .subheading2{
     font-family: "Barlow Condensed", sans-serif;
     font-size: 14px;
