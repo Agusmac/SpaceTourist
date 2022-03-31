@@ -276,6 +276,7 @@
     .displaynone{
       transform:translateX(100px);
       opacity: 0;
+      z-index: -10;
       /* display: none; */
     }
     
