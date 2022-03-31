@@ -208,15 +208,15 @@
     .navbar{
         opacity: 1;
       justify-content: flex-start;
-      /* height: 100%; */
+      height: 100%;
       width: auto;
       padding:100px 100px 200px;
       right: 0;
-      position: absolute;
+      position: fixed;
       top: 0;
       flex-direction: column;
       z-index: 10;
-      border-radius: 0 0 0 50px;
+      /* border-radius: 0 0 0 50px; */
       /* min-height: 100vh; */
       overflow: hidden;
       transition: 0.5s;
@@ -269,9 +269,11 @@
 
     .display{
       opacity: 1;
+      transform:translateX(0);
       /* display: inline-block; */
     }
     .displaynone{
+      transform:translateX(100px);
       opacity: 0;
       /* display: none; */
     }
