@@ -60,5 +60,6 @@
     }
     .destDiv h5{
         font-size: 5vw;
+        text-align: center;
     }
 }

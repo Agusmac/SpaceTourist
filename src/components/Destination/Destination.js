@@ -41,7 +41,7 @@ const Destination = ({ setBackImg }) => {
           </div>
           <div title className='spacerBot2'>
             <h2>{title}</h2>
-            <p>{text}</p>
+            <p style={{color:"#D0D6F9"}}>{text}</p>
           </div>
           <hr />
           <div className='grid simpleGrid spacerTop'>

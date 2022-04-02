@@ -107,6 +107,15 @@ select {
 .spacerTop2{
   margin-top: 50px;
 }
+.spacerTop3{
+  margin-top: 75px;
+}
+.spacerTop4f{
+  margin-top: 5vw;
+}
+.spacerTop5f{
+  margin-top: 8vw;
+}
 
 .flex{
   display: flex;
@@ -181,7 +190,10 @@ a{
   color: inherit;
 }
 
-
+.togglerButton{
+  background-color: white ;
+  color: #0B0D17;
+}
 
 /* --------- */
 
@@ -214,7 +226,7 @@ a{
     background-image: url(../public/assets/home/background-home-tablet.jpg);
    }
    .destination{
-    background-image: url(../public/assets/destination/background-destination-tablet.jpg);
+    background-image: url(../public/assets/destination/background-destination-tablet.jpg), url(../public/assets/technology/background-technology-tablet.jpg);
   }
   .crew{
     background-image: url(../public/assets/crew/background-crew-tablet.jpg);
@@ -225,7 +237,9 @@ a{
   .leftToCenter{
     text-align: center;
   }
-
+  .justifycenterMD{
+    justify-content: center;
+  }
 
 }
 @media (max-width:570px){
