@@ -169,3 +169,12 @@
   }
   
   
+
+/* -------test------ */
+.nodisplay{
+    display: none;
+}
+.displayer{
+    display:block;
+}
+
