@@ -61,7 +61,7 @@
         text-align: center;
     }
 }
-.float-ease-out {
+/* .float-ease-out {
     animation: float 15s infinite ease-out;
   }
 @keyframes float {
@@ -79,4 +79,4 @@
       transform: translateY(0);
       -webkit-transform: translateY(0) rotate(0deg);
     }
-  }
+  } */

@@ -33,7 +33,7 @@ const Destination = ({ setBackImg }) => {
     <div className='destDiv'>
       <h5><span>01</span> PICK YOUR DESTINATION</h5>
       <div className='grid destGrid'>
-        <div><img id="puffImg" className='puff-in-center float-ease-out' src={`/assets/destination/image-${img}.webp`} alt="spaceImg" /></div>
+        <div><img id="puffImg" className='puff-in-center' src={`/assets/destination/image-${img}.webp`} alt="spaceImg" /></div>
         <div className='destText'>
           <div className='NavText flex destLinker spacerBotLight'>
             <div className={`${img==="moon"&&"underlined2"}`} onClick={()=>setDestChoice(moonSet)}>MOON</div>
