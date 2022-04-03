@@ -11,7 +11,7 @@ const Technologies = ({ setBackImg }) => {
   const setB = { title: "SPACEPORT", text: texterer.b, imager: "image-spaceport-portrait", imgSM: "image-spaceport-landscape" }
   const setC = { title: "SPACE CAPSULE", text: texterer.c, imager: "image-space-capsule-portrait", imgSM: "image-space-capsule-landscape" }
 
-  const [tech, setTech] = useState(setB)
+  const [tech, setTech] = useState(setA)
 
   const {title,text,imager,imgSM}=tech
 
