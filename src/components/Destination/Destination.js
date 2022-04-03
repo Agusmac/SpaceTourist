@@ -27,11 +27,13 @@ const Destination = ({ setBackImg }) => {
   }, [setBackImg])
 
   const {img,title,text,distance,time}=destChoice
+
+  
   return (
     <div className='destDiv'>
       <h5><span>01</span> PICK YOUR DESTINATION</h5>
       <div className='grid destGrid'>
-        <div><img id="puffImg" className='puff-in-center' src={`/assets/destination/image-${img}.webp`} alt="spaceImg" /></div>
+        <div><img id="puffImg" className='puff-in-center float-ease-out' src={`/assets/destination/image-${img}.webp`} alt="spaceImg" /></div>
         <div className='destText'>
           <div className='NavText flex destLinker spacerBotLight'>
             <div className={`${img==="moon"&&"underlined2"}`} onClick={()=>setDestChoice(moonSet)}>MOON</div>
@@ -39,7 +41,7 @@ const Destination = ({ setBackImg }) => {
             <div className={`${img==="europa"&&"underlined2"}`} onClick={()=>setDestChoice(europaSet)}>EUROPA</div>
             <div className={`${img==="titan"&&"underlined2"}`} onClick={()=>setDestChoice(titanSet)}>TITAN</div>
           </div>
-          <div title className='spacerBot2'>
+          <div  className='spacerBot2'>
             <h2>{title}</h2>
             <p style={{color:"#D0D6F9"}}>{text}</p>
           </div>
