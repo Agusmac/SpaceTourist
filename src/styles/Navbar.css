@@ -11,8 +11,8 @@
   .navHrDiv hr {
     color: #9797979f;
     width: 100%;
-    
   }
+
   .navbar{
     padding-left: 10%;
     justify-content: space-around;
@@ -26,7 +26,6 @@
     box-sizing: unset;
   }
  
-
 
   .navigator {
     padding:50px 0 0 50px;

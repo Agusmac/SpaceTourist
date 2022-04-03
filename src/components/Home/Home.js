@@ -17,10 +17,8 @@ const Home = ({ setBackImg }) => {
         </p>
       </div>
       <div className='circle textcenter puff-in-center'>
-      <h4>EXPLORE</h4>
-       
+        <h4>EXPLORE</h4>
       </div>
-
     </div>
   )
 }

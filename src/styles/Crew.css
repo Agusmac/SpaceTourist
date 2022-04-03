@@ -1,11 +1,4 @@
-/* .crewDiv{
 
-}
-.crewDiv span{
-    margin-right: 5px;
-    color:rgba(255, 255, 255, 0.25);
-    font-weight: 800;
-} */
 .spacerCrew{
         margin-bottom: 0;
 }
@@ -96,11 +89,7 @@
     .crewGridDiv2{
         grid-row: 1/2;
     }
-    /* .crewhr{
-        border-radius: 50%;
-        margin: 0 auto;
-        display: block;
-    } */
+
     .crewimg{
         margin-top: 10vw;
     }
@@ -168,8 +157,6 @@
     }
   }
   
-  
-
 /* -------test------ */
 .nodisplay{
     display: none;
