@@ -5,6 +5,7 @@ import "./Navbar.css"
 import "./Home.css"
 import "./Destination.css"
 import "./Crew.css"
+import "./Tech.css"
 
 import App from './App';
 
