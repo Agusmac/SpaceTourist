@@ -8,7 +8,4 @@ Check the live site on [Netlify](https://luminous-sable-e58753.netlify.app/)
 * Vanilla CSS
 * React-router-dom routing, handles errors page too
 
-im currently looking for a job so let me know if u r interested (linkedin engagement is a good investment too)
 
-* agusmac40@gmail.com
-* [My linkedin profile](https://www.linkedin.com/in/agustin-mac-rae-3348ab216/)
